@@ -1,49 +1,96 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 *.so
 .Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-.pytest_cache/
 
-# Geospatial & Machine Learning Large Data Files
-*.tif
-*.tiff
-*.npy
-*.pth
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Environment variables / Secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Python packaging
+# =========================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+*.installed.cfg
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Machine Learning files
+# =========================
 *.pt
+*.pth
+*.ckpt
+*.onnx
 *.h5
 *.hdf5
+*.npy
 
-# Data folders (keep directory structure with .gitkeep)
+# =========================
+# Large Geospatial Data
+# =========================
+*.tif
+*.tiff
+
 data/raw/*
 !data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
 data/tiles/*
 !data/tiles/.gitkeep
+
+# =========================
+# Generated outputs
+# =========================
 outputs/*
 !outputs/.gitkeep
+
 models/*
 !models/.gitkeep
 
-# OS / IDE
-.DS_Store
-Thumbs.db
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+frontend/dist/
+
+# =========================
+# IDE
+# =========================
 .vscode/
 .idea/
 *.swp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
