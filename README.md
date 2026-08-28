@@ -1,4 +1,4 @@
-# Deep Learning Based Super Resolution Mapping (SRM) - GIS Subsystem
+# SIH 2026 - Deep Learning Based Satellite Super-Resolution Mapping (SRM)
 
 A comprehensive, production-grade GIS pre-processing and post-processing subsystem for satellite imagery super-resolution.
 
